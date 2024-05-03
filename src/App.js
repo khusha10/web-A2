@@ -28,7 +28,9 @@ const Leaderboard = () => {
   return (
     <div className='Main'>
       <h2>LeaderBoard</h2>
-      <button onClick={handleButtonClick}>{ <img src={Button} className='butt'/>}</button> {/* Button to fetch data */}
+       <button onClick={handleButtonClick}>
+        <img src={Button} className='butt' alt="fetch data" />
+      </button>
       <table>
         <thead>
           <tr>
