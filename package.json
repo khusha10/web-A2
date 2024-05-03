@@ -1,4 +1,24 @@
 {
+<<<<<<< HEAD
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+=======
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -37,5 +57,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+>>>>>>> dc1321600ce31d2ba79f7735adf41892cbb23450
   }
 }
